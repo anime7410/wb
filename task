@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task Manager</title>
+</head>
+
+<body>
+
+<h2>Assignment Manager</h2>
+
+<input type="text" id="task">
+<button onclick="addTask()">Add</button>
+
+<ul id="list"></ul>
+
+<script>
+function addTask() {
+    let task = document.getElementById("task").value;
+
+    if(task === "") return;
+
+    let li = document.createElement("li");
+
+    li.innerHTML = `
+    ${task}
+    <button onclick="deleteTask(this)">Delete</button>
+    <button onclick="editTask(this)">Edit</button>
+    <button onclick="completeTask(this)">Done</button>
+    `;
+
+    document.getElementById("list").appendChild(li);
+    document.getElementById("task").value = "";
+}
+
+function deleteTask(btn) {
+    btn.parentElement.remove();
+}
+
+function editTask(btn) {
+    let newTask = prompt("Edit task:");
+    if(newTask)
+        btn.parentElement.firstChild.textContent = newTask;
+}
+
+function completeTask(btn) {
+    btn.parentElement.style.textDecoration = "line-through";
+}
+</script>
+
+</body>
+</html>
