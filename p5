@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Random Quotes</title>
+</head>
+<body>
+
+<h2>Motivational Quote</h2>
+<p id="quote"></p>
+
+<button onclick="generateQuote()">New Quote</button>
+
+<script>
+var quotes = [
+    "Stay positive",
+    "Work hard",
+    "Never give up",
+    "Believe in yourself"
+];
+
+function generateQuote() {
+    var random = Math.floor(Math.random() * quotes.length);
+    document.getElementById("quote").innerHTML = quotes[random];
+}
+
+// Auto generate on load
+generateQuote();
+</script>
+
+</body>
+</html>
