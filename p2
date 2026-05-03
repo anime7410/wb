@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List Example</title>
+</head>
+<body>
+
+<h2>Courses Offered</h2>
+
+<!-- Unordered List -->
+<ul>
+    <li>Digital Electronics</li>
+    <li>Microprocessors</li>
+    <li>Signal Processing</li>
+</ul>
+
+<!-- Ordered List -->
+<h3>Year-wise Structure</h3>
+<ol>
+    <li>First Year</li>
+    <li>Second Year</li>
+    <li>Third Year</li>
+</ol>
+
+<!-- Description List -->
+<h3>Abbreviations</h3>
+<dl>
+    <dt>E&amp;TC</dt>
+    <dd>Electronics and Telecommunication</dd>
+</dl>
+
+</body>
+</html>
