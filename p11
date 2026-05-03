@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Order</title>
+<style>
+nav { background:orange; padding:10px; }
+nav a { margin:10px; text-decoration:none; }
+.item {
+    border:1px solid black;
+    padding:10px;
+    margin:10px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Menu</a>
+<a href="#">Login</a>
+<a href="#">Register</a>
+</nav>
+
+<h2>Menu</h2>
+
+<div class="item">
+<h3>Pizza</h3>
+<img src="https://via.placeholder.com/100">
+<p>Price: ₹200</p>
+<button>Order</button>
+</div>
+
+<div class="item">
+<h3>Burger</h3>
+<img src="https://via.placeholder.com/100">
+<p>Price: ₹100</p>
+<button>Order</button>
+</div>
+
+</body>
+</html>
