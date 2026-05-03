@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Department Homepage</title>
+</head>
+<body>
+
+<!-- Main Heading -->
+<h1>Electronics &amp; Telecommunication Engineering</h1>
+
+<!-- About Section -->
+<h2>About Department</h2>
+<p>
+The E&amp;TC department provides quality education in electronics, communication 
+and embedded systems. It focuses on both theory &amp; practical knowledge.
+</p>
+
+<!-- Vision -->
+<h3>Vision</h3>
+<p>To develop skilled engineers &copy; 2026</p>
+
+<!-- Mission -->
+<h3>Mission</h3>
+<p>Provide knowledge &gt; skills &gt; innovation</p>
+
+<!-- Contact -->
+<h3>Contact</h3>
+<p>Email: etc@college.com &nbsp; | Phone: 1234567890</p>
+
+</body>
+</html>
